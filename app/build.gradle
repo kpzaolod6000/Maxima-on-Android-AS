@@ -1,0 +1,53 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion '27.0.3'
+
+    defaultConfig {
+        applicationId "jp.yhonda"
+        minSdkVersion 19
+        targetSdkVersion 27
+        testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
+    }
+
+    dependencies {
+        implementation 'com.android.support:support-v4:25.3.1'
+        implementation 'com.android.support:appcompat-v7:25.3.1'
+        implementation 'com.android.support:design:25.3.1'
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    }
+    androidTestImplementation 'com.android.support.test:runner:0.5', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    }
+    androidTestImplementation 'com.android.support.test:rules:0.5', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    }
+    // Espresso-contrib for DatePicker, RecyclerView, Drawer actions, Accessibility checks, CountingIdlingResource
+//    androidTestCompile 'com.android.support.test.espresso:espresso-contrib:2.2.2'
+// Espresso-web for WebView support
+    androidTestImplementation 'com.android.support.test.espresso:espresso-web:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    }
+// Espresso-idling-resource for synchronization with background jobs
+    androidTestImplementation 'com.android.support.test.espresso:espresso-idling-resource:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    }
+// Espresso-intents for validation and stubbing of Intents
+    androidTestImplementation 'com.android.support.test.espresso:espresso-intents:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    }
+}
