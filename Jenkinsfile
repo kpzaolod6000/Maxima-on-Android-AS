@@ -59,18 +59,20 @@ pipeline {
                         echo 'Error en la fase de Test Funcional'
                     }finally {
                         publishHTML (target : [allowMissing: false,
-                         alwaysLinkToLastBuild: true,
-                         keepAll: true,
-                         reportDir: 'app/build/reports/androidTests/connected',
-                         reportFiles: '*.html',
-                         reportName: 'Test Registers',
-                         reportTitles: 'The Report'])
+                        alwaysLinkToLastBuild: true,
+                        keepAll: true,
+                        reportDir: 'app/build/reports/androidTests/connected',
+                        reportFiles: '*.html',
+                        reportName: 'Test Registers',
+                        reportTitles: 'The Report'])
                     }
                 }
             }
         }
         stage('Deploy-Project'){
-            archiveArtifacts 'app/build/outputs/apk/*'
+            steps{
+                archiveArtifacts 'app/build/outputs/apk/*'
+            }
         } 
     }
 }
