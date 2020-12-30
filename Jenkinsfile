@@ -49,8 +49,6 @@ pipeline {
         }
         
         stage ('Test Funcional') {
-                
-                
 	        steps{
 	            script{
 	                try {   
