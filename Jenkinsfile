@@ -70,10 +70,9 @@ pipeline {
 	            }
 	        }
         }
-
-        stage('Deploy') {
+    }
+    stage('Deploy') {
             //archiveArtifacts 'app/build/outputs/apk/*'
             echo 'deploy .. '
         } 
-    }
 }
