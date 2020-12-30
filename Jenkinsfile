@@ -71,7 +71,7 @@ pipeline {
         }
         stage('Deploy-Project'){
             steps{
-                archiveArtifacts 'app/build/outputs/apk/release'
+                archiveArtifacts 'app/build/outputs/apk/release/app-release-unsigned.apk'
             }
         } 
     }
