@@ -14,7 +14,7 @@ pipeline {
 
             }
         }
-        stage ('Build and Test') {
+        stage('Build and Test') {
 	        steps {
                 script{
 	                try {
@@ -48,7 +48,7 @@ pipeline {
             }
         }
         
-        stage ('Test Funcional') {
+        stage('Test Funcional') {
 	        steps{
 	            script{
 	                try {   
@@ -70,7 +70,7 @@ pipeline {
 	            }
 	        }
         }
-        stage ('Deploy') {
+        stage('Deploy') {
             archiveArtifacts 'app/build/outputs/apk/*'
         } 
     }
