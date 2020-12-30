@@ -30,9 +30,9 @@ pipeline {
                          alwaysLinkToLastBuild: true,
                          keepAll: true,
                          reportDir: 'app/build/reports',
-                         reportFiles: '*.html',
-                         reportName: 'Test Registers',
-                         reportTitles: 'The Report'])
+                         reportFiles: ' lint-results.html',
+                         reportName: 'Overview',
+                         reportTitles: 'Overview'])
                     }
 	            }
                 
