@@ -52,7 +52,7 @@ public class MaximaOnAndroidActivityTest2 {
 
     @Rule
     public ActivityTestRule<MaximaOnAndroidActivity> mActivityTestRule = new ActivityTestRule<>(MaximaOnAndroidActivity.class);
-
+/*
     @Test
     public void maximaOnAndroidActivityTest2() {
         waitForStartup();
@@ -118,7 +118,7 @@ public class MaximaOnAndroidActivityTest2 {
             // Go back to Maxima
             pressBack();
         }
-    }
+    }*/
     @Test
     public void AboutMoA() {
         waitForStartup();
