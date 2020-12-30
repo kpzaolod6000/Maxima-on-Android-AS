@@ -65,14 +65,9 @@ pipeline {
                          reportFiles: '*.html',
                          reportName: 'Test Registers',
                          reportTitles: 'The Report'])
-                        }
-	                }
+                    }
                 }
             }
         }
-        stage('Deploy') {
-            //archiveArtifacts 'app/build/outputs/apk/*'
-            echo 'deploy .. '
-        } 
     }
 }
