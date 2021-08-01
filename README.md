@@ -40,3 +40,5 @@ Copyright 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019 Yasuaki Honda (yasuaki.
 
     You should have received a copy of the GNU General Public License
     along with MaximaOnAndroid.  If not, see http://www.gnu.org/licenses/.
+Reporte con resultados de casos de prueba implementados hasta la el momento
+https://docs.google.com/spreadsheets/d/1e6RjyvkgYpCDrmIeGkS9Zhxr4Zg8tzOzXudyMxulx20/edit?usp=sharing
