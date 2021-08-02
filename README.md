@@ -1,4 +1,15 @@
-Source code distribution of Maxima on Android
+Maxima, un sistema de álgebra computacional con todas las funciones, ahora se ejecuta en sus dispositivos móviles Android. Maxima, y su predecesor Macsyma es uno de los software más antiguos del mundo, en la década de 1960 en el MIT LCS y Project Mac. Puede realizar muchas operaciones matemáticas como integración, diferenciación, operaciones matriciales, números racionales, tratamiento simbólico de constantes como pi, e, gamma de Euler, tratamiento simbólico y numérico de funciones especiales como sin(x), cos(x), log(x), exp(x), zeta(s), y muchos más.
+Maxima en Android es un puerto de Maxima en el sistema operativo
+Android. Gracias al esfuerzo de Sylvain Ageneau en la migración de Embeddable Common Lisp al sistema operativo Android, el último código Maxima se ejecuta muy bien en ECL en Android con cambios muy pequeños en el código fuente.
+Maxima en Android es una combinación de muchos programas de código abierto: ECL en Android, MathJax y el propio Maxima.
+Escribí aproximadamente mil líneas de código Java y cien líneas de HTML incluyendo código Javascript.
+La instalación del software requiere un total de 90 MB en el
+almacenamiento. Es necesario instalar 30 MB en el almacenamiento interno. El resto de 60 MB se pueden instalar en el almacenamiento externo o interno. La primera ejecución del apk te preguntará dónde quieres que se instalen los 60MB.
+A continuación, puede disfrutar de Maxima / Macsyma en su teléfono móvil o tableta basada en el sistema operativo
+Android.
+
+
+# Distribucion de Codigo fuente de Maxima on Android
 written by Yasuaki Honda (yasuaki.honda@gmail.com)
 
 Copyright 2012,2013,2014,2015,2016,2017,2018,2019 Yasuaki Honda, Chiba, Japan
