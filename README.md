@@ -191,7 +191,7 @@ Los resultados siguiente estan hechos con Recording Controlle
 
 1)En el view Result Tree vemos los resultados del sample results
 
-    <img src="./img/resultsam.png" width="700">
+    <img src="./img/reultsam.png" width="700">
 
 2) Aqui se muestra los resultados del resumen reporte
 
