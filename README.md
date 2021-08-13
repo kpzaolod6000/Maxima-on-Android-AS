@@ -67,3 +67,59 @@ https://github.com/kpzaolod6000/Maxima-on-Android-AS/blob/main/Casos%20de%20prue
 ## Herramienta 
 Mobile Security Framework (MobSF) es un Framework de pen-testing de aplicaciones móviles todo en uno automatizado, de código abierto (Android / iOS / Windows) capaz de realizar análisis estáticos, dinámicos y de malware. OWASP MSTG lo sugiere para el análisis estático de seguridad en aplicaciones móviles. Se puede utilizar para un análisis de seguridad rápido y eficaz de aplicaciones móviles de Android, iOS y Windows y admite tanto binarios (APK, IPA y APPX) como código fuente comprimido. MobSF puede realizar pruebas de aplicaciones dinámicas en tiempo de ejecución para aplicaciones de Android y tiene capacidades de fuzzing de API web impulsadas por CapFuzz, un escáner de seguridad específico de API web.
 
+<img src="./img/mobsf.png" width="400">
+
+
+## Análisis Estático
+
+### Resumen General
+
+<img src="./img/app_information.png" width="700">
+<img src="./img/resumen.png" width="700">
+
+- Certificate Information
+
+    <img src="./img/certificate.png" width="700">
+
+    <img src="./img/status_certificate.png" width="700">
+
+- Application Permissions
+
+    <img src="./img/permisos.png" width="700">
+
+- APKID analysis<br>APKID le brinda información sobre cómo se hizo un APK. Identifica muchos compiladores, empaquetadores, ofuscadores y otros weird stuffs.<br>
+    <img src="./img/APKID.png" width="700">
+
+- Manifest Analysis
+
+    <img src="./img/manifest_analisys.png" width="700">
+
+- Code Analysis
+
+    <img src="./img/code_1.png" width="700">
+
+    <img src="./img/code_2.png" width="700">
+
+- NIAP Analysis<br>La certificación NIAP proviene de la National Information Assurance Partnership, que supervisa las pruebas de seguridad, la evaluación y la validación de los productos y sistemas informáticos, incluidos los que se utilizan en los sistemas de seguridad nacionales.<br>
+
+    <img src="./img/NIAP.png" width="700">
+
+- Hardcode Secrets
+
+    <img src="./img/posible_hardcoded.png" width="700">
+
+## Análisis Dinámico
+
+- TLS/SSL Security Tester
+
+    <img src="./img/TLSSSL.png" width="700">
+
+- Domain Malware Check
+
+    <img src="./img/malwarecheck.png" width="700">
+
+- Trackers
+
+    <img src="./img/trackers.png" width="700">
+
+
