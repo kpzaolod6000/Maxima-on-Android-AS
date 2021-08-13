@@ -1,3 +1,13 @@
+<img src="./img/unsa.JPG" width="200">
+# Curso: Ingeniería de Software III
+# Integrantes: 
+## Quispe Menor, Hermógenes
+## Pfuturi Huisa, Oscar David
+## Pucho Zevallos, Kelvin Paul
+## Vilcapaza Flores, Luis Felipe
+## Santos Apaza, Yordy Williams
+## Pérez Rodríguez, Angelo Aldo
+
 # Maxima en Android
 
 <div>
