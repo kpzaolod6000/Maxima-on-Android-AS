@@ -174,9 +174,9 @@ JMeter es un proyecto de Apache que puede ser utilizado como una herramienta de 
 
 ## Pasos
 
--Se debre grear el Thread Group
--Dentro del Thread Group de agraga el recording controller, ya que usaremos una app de celular
--Dentro del Thread Group de agraga el View Reult tree para ver los resultados de las instrucciones
+-Se debre grear el Thread Group.
+-Dentro del Thread Group de agraga el recording controller, ya que usaremos una app de celular.
+-Dentro del Thread Group de agraga el View Reult tree para ver los resultados de las instrucciones.
 -Dentro del Thread Group de agraga el timer constante para darle un tiempo de espera.
 -En el Test Plan se Agrega un HTTP(S) The Scrip Recorder para grabar.
 -En el Test Plan Se agrega un reporte de resumen(Summary Report).
