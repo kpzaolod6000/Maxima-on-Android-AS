@@ -1,7 +1,9 @@
 # Maxima en Android
 
-<img src="./img/maxima.JPG.png" width="300">
-<img src="./img/maxima2.JPG.png" width="300">
+<div>
+<img src="./img/maxima.JPG" width="300">
+<img src="./img/maxima2.JPG" width="300">
+</div>
 Maxima, un sistema de álgebra computacional con todas las funciones, ahora se ejecuta en sus dispositivos móviles Android. Maxima, y su predecesor Macsyma es uno de los software más antiguos del mundo, en la década de 1960 en el MIT LCS y Project Mac. Puede realizar muchas operaciones matemáticas como integración, diferenciación, operaciones matriciales, números racionales, tratamiento simbólico de constantes como pi, e, gamma de Euler, tratamiento simbólico y numérico de funciones especiales como sin(x), cos(x), log(x), exp(x), zeta(s), y muchos más.
 Maxima en Android es un puerto de Maxima en el sistema operativo
 Android. Gracias al esfuerzo de Sylvain Ageneau en la migración de Embeddable Common Lisp al sistema operativo Android, el último código Maxima se ejecuta muy bien en ECL en Android con cambios muy pequeños en el código fuente.
