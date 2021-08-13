@@ -62,5 +62,8 @@ https://docs.google.com/spreadsheets/d/1e6RjyvkgYpCDrmIeGkS9Zhxr4Zg8tzOzXudyMxul
 https://github.com/kpzaolod6000/Maxima-on-Android-AS/blob/main/Casos%20de%20prueba%20IS%20III%20-%20Hoja%201.pdf
 
 
+# Pruebas de Seguridad
 
+## Herramienta 
+Mobile Security Framework (MobSF) es un Framework de pen-testing de aplicaciones móviles todo en uno automatizado, de código abierto (Android / iOS / Windows) capaz de realizar análisis estáticos, dinámicos y de malware. OWASP MSTG lo sugiere para el análisis estático de seguridad en aplicaciones móviles. Se puede utilizar para un análisis de seguridad rápido y eficaz de aplicaciones móviles de Android, iOS y Windows y admite tanto binarios (APK, IPA y APPX) como código fuente comprimido. MobSF puede realizar pruebas de aplicaciones dinámicas en tiempo de ejecución para aplicaciones de Android y tiene capacidades de fuzzing de API web impulsadas por CapFuzz, un escáner de seguridad específico de API web.
 
