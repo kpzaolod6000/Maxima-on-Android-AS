@@ -90,15 +90,15 @@ De forma predeterminada, Android studio establece el marco de pruebas de espress
 
 ## Archivos del proyecto (los test se encuentran en la carpeta (Maxima-on-Android-AS\app\src\androidTest\java\jp\yhonda)
 
-<img src="./img/projectCarpetas.JPG" width="700">
+<img src="./img/projectCarpetas.JPG" width="400">
 
 ## Imagen de Reportes
 
-<img src="./img/reportes.JPG" width="700">
+<img src="./img/reportes.JPG" width="1000">
 
 ## Resultados de la terminal
 
-<img src="./img/resultRun.JPG" width="700">
+<img src="./img/resultRun.JPG" width="1000">
 
 ## Reporte en formato excel
 https://docs.google.com/spreadsheets/d/1e6RjyvkgYpCDrmIeGkS9Zhxr4Zg8tzOzXudyMxulx20/edit?usp=sharing
