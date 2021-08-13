@@ -147,4 +147,8 @@ Mobile Security Framework (MobSF) es un Framework de pen-testing de aplicaciones
 
     <img src="./img/trackers.png" width="700">
 
+# Prueba de Rendimiento
+
+## JMETER
+JMeter es un proyecto de Apache que puede ser utilizado como una herramienta de prueba de carga para analizar y medir el rendimiento de una variedad de servicios, con énfasis en aplicaciones web.
 
