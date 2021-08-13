@@ -61,3 +61,6 @@ https://docs.google.com/spreadsheets/d/1e6RjyvkgYpCDrmIeGkS9Zhxr4Zg8tzOzXudyMxul
 
 https://github.com/kpzaolod6000/Maxima-on-Android-AS/blob/main/Casos%20de%20prueba%20IS%20III%20-%20Hoja%201.pdf
 
+
+
+
