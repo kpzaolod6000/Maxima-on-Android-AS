@@ -181,7 +181,7 @@ JMeter es un proyecto de Apache que puede ser utilizado como una herramienta de 
 -En el Test Plan se Agrega un HTTP(S) The Scrip Recorder para grabar.<br>
 -En el Test Plan Se agrega un reporte de resumen(Summary Report).<br>
 
-La estructura queda de la suguiente forma:
+La estructura queda de la suguiente forma:<br>
 
     <img src="./img/treegroup.png" width="700">
     
@@ -189,11 +189,11 @@ La estructura queda de la suguiente forma:
 ## Resultados 
 Los resultados siguiente estan hechos con Recording Controlle
 
-1)En el view Result Tree vemos los resultados del sample results
+1)En el view Result Tree vemos los resultados del sample results<br>
 
     <img src="./img/reultsam.png" width="700">
 
-2) Aqui se muestra los resultados del resumen reporte
+2) Aqui se muestra los resultados del resumen reporte<br>
 
     <img src="./img/resumen.png" width="700">
 
