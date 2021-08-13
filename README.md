@@ -57,8 +57,17 @@ Copyright 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019 Yasuaki Honda (yasuaki.
 # Pruebas Funcionales
 ## Herramientas:
 ### Junit
+JUnit es el estándar de facto para las pruebas unitarias de una aplicación Java. Aunque, es popular para las pruebas unitarias, tiene soporte completo y provisión para pruebas de instrumentación también. La biblioteca de pruebas de Espresso amplía las clases JUnit necesarias para admitir las pruebas de instrumentación basadas en Android
+En este caso se uso las etiquetas siguientes:
+
+- @Test: Cuando un metodo en particular posea una etiqueta superior quiere indicar que se considera como un caso de pruebas y sera ejecutado por JUnit Runner
+- @Rule: El framework de pruebas de Android proporciona una regla, ActivityTestRule, para iniciar una activity de Android antes de ejecutar los casos de prueba. Inicia la actividad antes de cada método anotado con @Test' y @Before. Finalizará la actividad después del método anotado con @After. Un código de ejemplo es el siguiente.
+- @RunWith(AndroidJUnit4.class): Tambien proporcionamos una etiqueta que indica que version de Junit se usara en nuestro caso JUnit4
+- 
 ### Espresso
 Espresso es un framework pruebas de interfaz de usuario (UI) android de código abierto desarrollado por Google. El termino espresso significa Café. Espresso es un framework de pruebas simple, eficiente y flexible.
+
+<img src="./img/espresosss.png" width="700">
 
 ### Características de Espresso
 - Algunas de las características más destacadas compatibles con Espresso son las siguientes:
@@ -75,10 +84,21 @@ De forma predeterminada, Android studio establece el marco de pruebas de espress
 - Escriba Nombre de la aplicación.
 - Y finalemente instancia el framework en el archivo gradle
 
-<img src="./img/androidSupporting.JPG" width="400">
+<img src="./img/androidSupporting.JPG" width="700">
 
-<img src="./img/dependencias.JPG" width="400">
+<img src="./img/dependencias.JPG" width="700">
 
+## Archivos del proyecto (los test se encuentran en la carpeta (Maxima-on-Android-AS\app\src\androidTest\java\jp\yhonda)
+
+<img src="./img/projectCarpetas.JPG" width="700">
+
+## Imagen de Reportes
+
+<img src="./img/reportes.JPG" width="700">
+
+## Resultados de la terminal
+
+<img src="./img/resultRun.JPG" width="700">
 
 ## Reporte en formato excel
 https://docs.google.com/spreadsheets/d/1e6RjyvkgYpCDrmIeGkS9Zhxr4Zg8tzOzXudyMxulx20/edit?usp=sharing
@@ -147,8 +167,4 @@ Mobile Security Framework (MobSF) es un Framework de pen-testing de aplicaciones
 
     <img src="./img/trackers.png" width="700">
 
-# Prueba de Rendimiento
-
-## JMETER
-JMeter es un proyecto de Apache que puede ser utilizado como una herramienta de prueba de carga para analizar y medir el rendimiento de una variedad de servicios, con énfasis en aplicaciones web.
 
