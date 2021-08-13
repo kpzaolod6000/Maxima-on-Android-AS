@@ -1,8 +1,8 @@
 # Maxima en Android
 
 <div>
-<img src="./img/maxima.JPG" width="300">
-<img src="./img/maxima2.JPG" width="300">
+<img src="./img/maxima.JPG" width="200">
+<img src="./img/maxima2.JPG" width="200">
 </div>
 Maxima, un sistema de álgebra computacional con todas las funciones, ahora se ejecuta en sus dispositivos móviles Android. Maxima, y su predecesor Macsyma es uno de los software más antiguos del mundo, en la década de 1960 en el MIT LCS y Project Mac. Puede realizar muchas operaciones matemáticas como integración, diferenciación, operaciones matriciales, números racionales, tratamiento simbólico de constantes como pi, e, gamma de Euler, tratamiento simbólico y numérico de funciones especiales como sin(x), cos(x), log(x), exp(x), zeta(s), y muchos más.
 Maxima en Android es un puerto de Maxima en el sistema operativo
@@ -188,7 +188,7 @@ JMeter es un proyecto de Apache que puede ser utilizado como una herramienta de 
 
 La estructura queda de la suguiente forma:<br>
 
-  <img src="./img/treegroup.png" width="700">
+  <img src="./img/treegroup.png" width="500">
     
 
 ## Resultados 
@@ -196,7 +196,7 @@ Los resultados siguiente estan hechos con Recording Controlle
 
 1)En el view Result Tree vemos los resultados del sample results<br>
 
-   <img src="./img/reultsam.png" width="700">
+   <img src="./img/reultsam.png" width="500">
 
 2) Aqui se muestra los resultados del resumen reporte<br>
 
