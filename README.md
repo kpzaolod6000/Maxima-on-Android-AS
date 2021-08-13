@@ -52,13 +52,38 @@ Copyright 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019 Yasuaki Honda (yasuaki.
 
     You should have received a copy of the GNU General Public License
     along with MaximaOnAndroid.  If not, see http://www.gnu.org/licenses/.
-# Reporte con resultados de casos de prueba implementados hasta la el momento
+
+# Reporte de Pruebas
+# Pruebas Funcionales
+## Herramientas:
+### Junit
+### Espresso
+Espresso es un framework pruebas de interfaz de usuario (UI) android de código abierto desarrollado por Google. El termino espresso significa Café. Espresso es un framework de pruebas simple, eficiente y flexible.
+
+### Características de Espresso
+- Algunas de las características más destacadas compatibles con Espresso son las siguientes:
+- API muy simple y por lo tanto, fácil de aprender.
+- Altamente escalable y flexible.
+- Proporciona un módulo independiente para probar el componente Android WebView.
+- Proporciona un módulo independiente para validar y simular los intentos de Android.
+- Proporciona sincronización automática entre la aplicación y las pruebas.
+### Instalacion Simple
+De forma predeterminada, Android studio establece el marco de pruebas de espresso (biblioteca de soporte de Android) como una dependencia mientras crea el proyecto android y gradle descargará la biblioteca necesaria desde el repositorio de Maven.
+
+- Inicie Android Studio.
+- Seleccione Archivo → Nuevo → Nuevo proyecto.
+- Escriba Nombre de la aplicación.
+- Y finalemente instancia el framework en el archivo gradle
+
+<img src="./img/androidSupporting.JPG" width="400">
+
+<img src="./img/dependencias.JPG" width="400">
+
 
 ## Reporte en formato excel
 https://docs.google.com/spreadsheets/d/1e6RjyvkgYpCDrmIeGkS9Zhxr4Zg8tzOzXudyMxulx20/edit?usp=sharing
 
 ## Reporte en formato pdf
-
 https://github.com/kpzaolod6000/Maxima-on-Android-AS/blob/main/Casos%20de%20prueba%20IS%20III%20-%20Hoja%201.pdf
 
 
