@@ -174,12 +174,12 @@ JMeter es un proyecto de Apache que puede ser utilizado como una herramienta de 
 
 ## Pasos
 
--Se debre grear el Thread Group.
--Dentro del Thread Group de agraga el recording controller, ya que usaremos una app de celular.
--Dentro del Thread Group de agraga el View Reult tree para ver los resultados de las instrucciones.
--Dentro del Thread Group de agraga el timer constante para darle un tiempo de espera.
--En el Test Plan se Agrega un HTTP(S) The Scrip Recorder para grabar.
--En el Test Plan Se agrega un reporte de resumen(Summary Report).
+-Se debre grear el Thread Group.<br>
+-Dentro del Thread Group de agraga el recording controller, ya que usaremos una app de celular.<br>
+-Dentro del Thread Group de agraga el View Reult tree para ver los resultados de las instrucciones.<br>
+-Dentro del Thread Group de agraga el timer constante para darle un tiempo de espera.<br>
+-En el Test Plan se Agrega un HTTP(S) The Scrip Recorder para grabar.<br>
+-En el Test Plan Se agrega un reporte de resumen(Summary Report).<br>
 
 La estructura queda de la suguiente forma:
 
@@ -191,7 +191,7 @@ Los resultados siguiente estan hechos con Recording Controlle
 
 1)En el view Result Tree vemos los resultados del sample results
 
-    <img src="./img/resultsam.png" width="700">
+    <img src="./img/reultsam.png" width="700">
 
 2) Aqui se muestra los resultados del resumen reporte
 
