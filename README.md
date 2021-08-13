@@ -183,7 +183,7 @@ JMeter es un proyecto de Apache que puede ser utilizado como una herramienta de 
 
 La estructura queda de la suguiente forma:<br>
 
-    <img src="./img/treegroup.png" width="700">
+  <img src="./img/treegroup.png" width="700">
     
 
 ## Resultados 
@@ -191,7 +191,7 @@ Los resultados siguiente estan hechos con Recording Controlle
 
 1)En el view Result Tree vemos los resultados del sample results<br>
 
-    <img src="./img/reultsam.png" width="700">
+   <img src="./img/reultsam.png" width="700">
 
 2) Aqui se muestra los resultados del resumen reporte<br>
 
